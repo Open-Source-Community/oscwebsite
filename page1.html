@@ -3,32 +3,41 @@
 <head>
 <title>OSC</title>
 <link rel="stylesheet" href="page1.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('#nav a').on('click', function (e) {
+                e.preventDefault();
+                var page = $(this).attr('href');
+                $('#content').load(page);
+            });
+        });
+    </script>
+
 </head>
 
 <body >
-<img src="image.png"  width="1355" height="150">
+<img src="osclogo.png"  width="300" height="120">
 <br><br><br>
-<a>
-<ul type="square">
+
+<div id="color">
+
+<div id="background">
+
+
+<ul id="nav" > 
+<li><a href="index.html">Home</a></li> 
+<li><a href="tutorial.html">Tutorials</a></li> 
+<li><a href="project.html">Projects</a></li> 
+</ul> 
+<div id="content"></div>
+</div>
+</div>
+<!-- <ul type="square">
 
 <a href="http://www.facebook.com/"><li>facebook</li> </a>
 <a href="https://soundcloud.com/"><li>Sound Cloud</li> </a>
 
-</ul>
-
-
-<div id="background">
-
-<ul id="nav">
-  <li><a href="#">Lundi</a></li>
-  <li><a href="#">Mardi</a></li>
-  <li><a href="#">Mercredi</a></li>
-  <li><a href="#">Jeudi</a></li>
-  <li><a href="#">Vendredi</a></li>
-  <li><a href="#">Samedi</a></li>
-
-</ul>
-</div>
-
+</ul> -->
 </body>
 </html> 

@@ -12,25 +12,12 @@ p
 
 body
 {
-	background-image:url('background.jpg');
-	background-size:1365px 1365px;
+	/* background-image:url('background.jpg'); */
+	background-color:white;
+	/* background-size:1365px 1365px; 
 	background-repeat:no-repeat;
-	position:absolute; TOP:35px; 
-}	
-#background {
-	position: fixed;
-	top: 192px;
-	left: 200px;
-	right:100;
-	width: 85%;
-	height: 100%;
-	background-color: #F8F8F8 ; 
-	opacity:0.8;
-	filter:alpha(opacity=80);
-	border: 15px solid rgba(0, 0, 0, 0.1);
-	
+	position:absolute; TOP:35px; */
 }
-
 a:link
 {
 	font-weight:bold;
@@ -43,39 +30,76 @@ a:visited {color:#505050 ;}
 a:hover {color:#003366;}   
 a:active {color:#707070 ;}
 
-
-
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-li {
-  list-style-type: none;
-}
-#nav {
-  display: table;
-  table-layout: fixed;
-  text-align: center;
-}
-#nav li {
-  display: table-cell;
-  width: 25%;
-  padding-right: 1px;
-  height: auto;
-  vertical-align: bottom;
-}
-#nav a {
-  display: block;
-  min-height: 100%;
-  padding: 4px 10px;
-  background-color: #222;
-  color: white;
-  border-radius: 6px 6px 0 0;
+div#color
+{	
+	position: fixed;
+	top: 192px;
+	left: 200px;
+	right:100;
+	width: 85%;
+	height: 100%;
+	background-color: #F8F8F8 ; 
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	border: 15px solid rgba(0, 0, 0, 0.1);
+	  margin-top:1px;
+        display: inline-block;
 }
 
+div#background { 
+position: fixed;
+	/*top: 192px;*/
+	top: 192px
+	left: 200px;
+	right:100;
+	width: 85%;
+	height: 100%;
+	
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	height: 30px; 
+	left:50;
+	width: 100%; 
+	border-top: solid #000 1px; 
+	border-bottom: solid #000 1px; 
+	background-color: #336699;
+} 
 
+div#background ul { 
+margin: 0px; 
+padding: 0px; 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: small; 
+color: #FFF; 
+line-height: 30px; 
+white-space: nowrap; 
+} 
 
+div#background li { 
+list-style-type: none; 
+display: inline; 
+} 
+
+div#background li a { 
+text-decoration: none; 
+padding: 7px 10px; 
+color: #FFF; 
+} 
+
+div#background li a:link { 
+color: #FFF: 
+} 
+
+div#background li a:visited { 
+color: #CCC; 
+} 
+
+div#background li a:hover { 
+font-weight: bold; 
+color: #FFF; 
+background-color: #3366FF; 
+} 
 
 
 

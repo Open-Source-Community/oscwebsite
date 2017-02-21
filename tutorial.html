@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Tutorials</title>
+<link rel="stylesheet" href="page1.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('#loulou a').on('click', function (e) {
+                e.preventDefault();
+                var page = $(this).attr('href');
+                $('#content').load(page);
+            });
+        });
+    </script>
+</head>
+
+<body >
+	
+	<div id="loulou" > 
+	<a href="loulou.html">Lundi</a>
+	<a href="tutorial.html">Mardi</a>
+	<a href="project.html">Mercredi</a> 
+	</div> 
+	
+
+
+</body>
+</html> 
