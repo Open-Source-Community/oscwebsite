@@ -98,13 +98,17 @@ color: #FFF:
 } 
 
 div#background li a:visited { 
-color: #CCC; 
+color: #FFF; 
 } 
 
 div#background li a:hover { 
 font-weight: bold; 
+color: #FFF; 
+background-color: #66CCFF;
+
+/*font-weight: bold; 
 color: black; 
-text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #CCCCCC;
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #CCCCCC;*/
 
 ; 
 } 
