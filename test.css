@@ -1,0 +1,47 @@
+
+.container
+{
+	position:relative;
+	left:1000px;
+	font-weight:bold;
+	font-stretch:condensed;
+	font-family:"Courier",Times,sans-serif;
+	font-size:20px;
+	color:#003366;
+	
+}
+
+body
+{
+	background-image:url('img.gif');
+	background-size:1365px 600px;
+	background-repeat:no-repeat;
+	
+}
+
+a:link
+{
+	position:relative;
+	left:800px;
+	top:350px;
+	font-weight:bold;
+	font-stretch:condensed;
+	font-family:"Courier",Times,sans-serif;
+	font-size:30px;
+	text-decoration: none
+}
+a:link {color:#484848 ;}    
+a:visited {color:#505050 ;} 
+a:hover {color:#003366;}   
+a:active {color:#707070 ;}
+
+
+
+
+
+
+
+
+
+
+
