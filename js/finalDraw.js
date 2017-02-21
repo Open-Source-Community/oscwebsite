@@ -65,7 +65,7 @@ var pathObj = {
 
 
     
-    var paper = new Raphael(858, 210, 500, 500);
+    var paper = new Raphael(30, 50, 400, 400);
 
 
     //CIRCLE 1
@@ -234,22 +234,6 @@ var pathObj = {
     };
     circ8.hover(hoverFunc, backFunc);
     text8.hover(hoverFunc, backFunc);
-
-    //DECLARATION
-    //Green
-    var green = paper.circle(11, 440, 10);
-    green.attr({fill: '#9ACD32'});
-    var txtGreen = paper.text(36, 440, "Done");
-
-    //Yellow
-    var yellow = paper.circle(80, 440, 10);
-    yellow.attr({fill: '#FFFF66'});
-    var txtYellow = paper.text(130, 440, "Work in progress");
-
-    //Red
-    var red = paper.circle(190, 440, 10);
-    red.attr({fill: '#e09b99'});
-    var txtRed= paper.text(220, 440, "في الزلافة");
 
  });
 
