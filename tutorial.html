@@ -2,11 +2,11 @@
 <html>
 <head>
 <title>Tutorials</title>
-<link rel="stylesheet" href="page1.css">
+<link rel="stylesheet" href="tutorial.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script>
         $(function () {
-            $('#loulou a').on('click', function (e) {
+            $('#tutorial a').on('click', function (e) {
                 e.preventDefault();
                 var page = $(this).attr('href');
                 $('#content').load(page);
@@ -16,11 +16,11 @@
 </head>
 
 <body >
-	
-	<div id="loulou" > 
-	<a href="loulou.html">Lundi</a>
-	<a href="tutorial.html">Mardi</a>
-	<a href="project.html">Mercredi</a> 
+
+	<div id="tutorial" > 
+	<a href="git.html">- Git</a><br>
+	<a href="2nd.html">- 2nd tutorial</a><br>
+	<a href="3ed.html">- Another tutorial</a> <br>
 	</div> 
 	
 
