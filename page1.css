@@ -1,4 +1,4 @@
-h1.osc {
+/*h1.osc {
 font-family: Garamond, serif;
 line-height: 1em;
 color: #51bfe0;
@@ -14,13 +14,27 @@ left:50px;
 color: #368da8;
 font-weight:bold;
 font-size: 30px;
-text-shadow:0px 0px 0 rgb(24,111,138),1px 1px 0 rgb(4,91,118), 2px 2px 0 rgb(-16,71,98),3px 3px 2px rgba(0,0,0,0),3px 3px 1px rgba(0,0,0,0.5),0px 0px 2px rgba(0,0,0,.2);}
+text-shadow:0px 0px 0 rgb(24,111,138),1px 1px 0 rgb(4,91,118), 2px 2px 0 rgb(-16,71,98),3px 3px 2px rgba(0,0,0,0),3px 3px 1px rgba(0,0,0,0.5),0px 0px 2px rgba(0,0,0,.2);}*/
 
-
+div#image
+{
+	position:absolute;
+	left:1000px;
+	top:10px;
+	
+}
 body
 {
-	background: #EFEFEF;	
+	background: #F6F6F6;
+	 margin:0;
+    padding:0;
+    height:100%;
+    /*background-color:#FAFAFA;
+    text-align:center;	*/
 }
+
+
+
 a:link
 {
 	font-weight:bold;
@@ -35,22 +49,16 @@ a:active {color:#707070 ;}
 
 div#background { 
 position: absolute;
-	top: 140px
-	left: 0px;
-	width: 100%;
-	height: 100%;
-	
-	opacity:0.8;
-	filter:alpha(opacity=80);
+	top: 140px;
 	border: 2px solid rgba(0, 0, 0, 0.1);
 	height: 30px; 
-	left:50;
-	width: 99.8%; 
+	left:10px;
+	width: 98.5%; 
 	border-top: solid #000 1px; 
 	border-bottom: solid #000 1px; 
 	background-color: #009ECF;
 } 
-
+/*
 div#color
 {	
 	position: absolute;
@@ -59,11 +67,10 @@ div#color
 	width: 90%;
 	height: 100%;
 	background-color: white ; 
-	opacity:0.8;
-	filter:alpha(opacity=80);
         display: inline-block;
 	border: solid gray 2px;
-}
+	
+}*/
 
 div#background ul { 
 margin: 0px; 
@@ -96,9 +103,26 @@ color: #CCC;
 
 div#background li a:hover { 
 font-weight: bold; 
-color: #FFF; 
-background-color: #3366FF; 
+color: black; 
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #CCCCCC;
+
+; 
 } 
+
+div#border {
+   
+	top: 140px;
+	left: 10px;
+     background-color: #FFFFFF;
+    height:100%;
+    height: auto !important;
+    min-height:100%;
+    width:1345px;
+    margin:0 auto;
+    border-left:1px solid #CCC;
+    border-right:1px solid #CCC;
+    overflow:auto;
+}  
 
 
 
