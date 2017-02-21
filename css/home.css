@@ -1,0 +1,70 @@
+.block #categories{
+        max-width: 33px;
+        margin-left: 10px;}
+
+.block #share{
+        max-width: 21px;
+        margin-left: 10px;}
+
+.block #login{
+            margin-bottom: -10px;}
+/*----------------------------------------------*/
+
+.main{
+        padding-top: 80px;}
+
+.main .video{
+                width: 428px;
+                height: 298px;
+                float: left;
+                margin-bottom: 90px;
+                margin-left: 50px;
+/*                margin-right: ;*/
+}
+
+/*----------------------------------------------*/
+
+.main .minIntro{
+                text-align: center;
+                margin-left: 50px;
+                float: left;
+                min-width:  432px;
+}
+
+.main .minIntro #OSC{
+        font-family: FFF Tusj;
+        font-size: 400%;
+}
+
+.main .minIntro #subheader{
+/*        margin-right: -px;*/
+        margin-top: -50px;
+        font-family: FFF Tusj;
+}
+
+/*----------------------------------------------*/    
+
+.main #hrline{
+/*                clear: both;*/
+/*                max-width: 65%;*/
+/*                margin-top: 90px;*/
+/*                padding-top: 100px;*/
+/*                float: left;*/
+                border: 0;
+                height: 2px;
+                width: 60%;
+                float: none;
+                background-image: -webkit-linear-gradient(left, rgba(195,195,195,0), rgba(195,195,195,0.75), rgba(195,195,195,0)); 
+                background-image:    -moz-linear-gradient(left, rgba(195,195,195,0), rgba(195,195,195,0.75), rgba(195,195,195,0)); 
+                background-image:     -ms-linear-gradient(left, rgba(195,195,195,0), rgba(195,195,195,0.75), rgba(195,195,195,0)); 
+                background-image:      -o-linear-gradient(left, rgba(195,195,195,0), rgba(195,195,195,0.75), rgba(195,195,195,0));
+}
+
+/*----------------------------------------------*/
+
+p#theme{
+/*        word-wrap:break-word;*/
+        max-width: 367px;
+        margin-left: 33px;
+        line-height: 20px;
+}
