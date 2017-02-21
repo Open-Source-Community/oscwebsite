@@ -65,7 +65,7 @@ var pathObj = {
 
 
     
-    var paper = new Raphael(30, 50, 400, 400);
+    var paper = new Raphael(862, 220, 400, 400);
 
 
     //CIRCLE 1
