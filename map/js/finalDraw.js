@@ -19,7 +19,7 @@ var pathObj = {
             },
             {
                 //4
-                "path": "M 350 250 L 350 307 Z",
+                "path": "M 350 230 L 350 307 Z",
                 "duration": 600
             },
             {
@@ -80,16 +80,16 @@ var pathObj = {
 
 
     
-    var paper = new Raphael(858, 210, 300, 500);
+    var paper = new Raphael(30, 50, 500, 600);
 
 
     //CIRCLE 1
-    var circ1 = paper.circle(249, 78, 15);
+    var circ1 = paper.circle(330, 74, 15);
     circ1.attr({fill: '#9ACD32', stroke: '#A9A9A9',"stroke-width": "3", opacity: 0});
     var anim = Raphael.animation({opacity: 1}, 500); //the animation
     circ1.animate(anim.delay(200)); // run the given animation immediately
 
-    var text = paper.text(249, 75, 'Linux\nStory')
+    var text = paper.text(330, 75, 'Linux\nStory')
     text.attr({opacity: 0, 'font-size': 0, 'cursor': 'context-menu'});
 
 
@@ -109,12 +109,12 @@ var pathObj = {
 
 
     //CIRCLE 2
-    var circ2 = paper.circle(249, 139, 15);
+    var circ2 = paper.circle(330, 134, 15);
     circ2.attr({fill: '#9ACD32', stroke: '#A9A9A9',"stroke-width": "3", opacity: 0});
     var anim = Raphael.animation({opacity: 1}, 500); //the animation
     circ2.animate(anim.delay(800)); // run the given animation immediately
 
-    var text2 = paper.text(249, 135, 'What \nto expect?');
+    var text2 = paper.text(330, 130, 'What \nto expect?');
     text2.attr({opacity: 0, 'font-size': 0, 'cursor': 'context-menu'});
 
     //Functions
@@ -131,12 +131,12 @@ var pathObj = {
 
 
     //CIRCLE 3
-    var circ3 = paper.circle(249, 209, 15);
+    var circ3 = paper.circle(330, 204, 15);
     circ3.attr({fill: '#9ACD32', stroke: '#A9A9A9',"stroke-width": "3", opacity: 0});
     var anim = Raphael.animation({opacity: 1}, 500); //the animation
     circ3.animate(anim.delay(1400)); // run the given animation immediately
 
-    var text3 = paper.text(249, 200, 'What is\ndistro? And\nwhich to use?');
+    var text3 = paper.text(330, 200, 'What is\na distro? And\nwhich to use?');
     text3.attr({opacity: 0, 'font-size': 0, 'cursor': 'context-menu'});
 
     //Functions
@@ -151,35 +151,35 @@ var pathObj = {
     circ3.hover(hoverFunc, backFunc);
     text3.hover(hoverFunc, backFunc);
 
-    //CIRCLE 4
-    var circInstation = paper.circle(249, 285, 15);
-    circInstation.attr({fill: '#FFFF66', stroke: '#A9A9A9',"stroke-width": "3", opacity: 0});
+    //CIRCLE Installtion on VB
+    var circInstaltion = paper.circle(330, 280, 15);
+    circInstaltion.attr({fill: '#FFFF66', stroke: '#A9A9A9',"stroke-width": "3", opacity: 0});
     var anim = Raphael.animation({opacity: 1}, 500); //the animation
-    circInstation.animate(anim.delay(2000)); // run the given animation immediately
+    circInstaltion.animate(anim.delay(2000)); // run the given animation immediately
 
-    var textInstaltion = paper.text(249, 284, 'Instaltion \n On VB');
+    var textInstaltion = paper.text(330, 278, 'Installation \n On VB');
     textInstaltion.attr({opacity: 0, 'font-size': 0, 'cursor': 'context-menu'});
 
     //Functions
     hoverFunc = function(){
-        circInstation.animate({r: 40}, 500, 'bounce');
+        circInstaltion.animate({r: 40}, 500, 'bounce');
         textInstaltion.animate({opacity: 1, 'font-size': 15}, 500, 'bounce');
     };
     backFunc = function(){
-        circInstation.animate({r: 15}, 500, 'bounce');
+        circInstaltion.animate({r: 15}, 500, 'bounce');
         textInstaltion.animate({opacity: 0, 'font-size': 0}, 500, 'bounce');
     };
-    circInstation.hover(hoverFunc, backFunc);
+    circInstaltion.hover(hoverFunc, backFunc);
     textInstaltion.hover(hoverFunc, backFunc);
 
 
     //CIRCLE 5
-    var circ4 = paper.circle(129, 95, 15);
+    var circ4 = paper.circle(210, 94, 15);
     circ4.attr({fill: '#9ACD32', stroke: '#A9A9A9',"stroke-width": "3", opacity: 0});
     var anim = Raphael.animation({opacity: 1}, 500); //the animation
     circ4.animate(anim.delay(3300)); // run the given animation immediately
 
-    var text4 = paper.text(129, 95, "OSC \nWebsite \nV1");
+    var text4 = paper.text(212, 95, "OSC \nWebsite \nV1");
     text4.attr({opacity: 0, 'font-size': 0, 'cursor': 'context-menu'});
     //Functions
     hoverFunc = function(){
@@ -195,11 +195,11 @@ var pathObj = {
 
 
     //CIRCLE 6
-    var circ5 = paper.circle(129, 174, 15);
+    var circ5 = paper.circle(210, 169, 15);
     circ5.attr({fill: '#9ACD32', stroke: '#A9A9A9',"stroke-width": "3", opacity: 0});
     var anim = Raphael.animation({opacity: 1}, 500); //the animation
     circ5.animate(anim.delay(3800)); // run the given animation immediately
-    var text5 = paper.text(129, 173, "OSC\nWebsite\nV2");
+    var text5 = paper.text(210, 170, "OSC\nWebsite\nV2");
     text5.attr({opacity: 0, 'font-size': 0, 'cursor': 'context-menu'});
     //Functions
     hoverFunc = function(){
@@ -215,11 +215,11 @@ var pathObj = {
 
 
     //CIRCLE 7
-    var circ6 = paper.circle(129, 244, 15);
+    var circ6 = paper.circle(210, 244, 15);
     circ6.attr({fill: '#9ACD32', stroke: '#A9A9A9',"stroke-width": "3", opacity: 0});
     var anim = Raphael.animation({opacity: 1}, 500); //the animation
-    circ6.animate(anim.delay(4300)); // run the given animation immediately
-    var text6 = paper.text(129, 245, "OSC\nWebsite\nV2.3");
+    circ6.animate(anim.delay(4200)); // run the given animation immediately
+    var text6 = paper.text(210, 245, "OSC\nWebsite\nV2.3");
     text6.attr({opacity: 0, 'font-size': 0, 'cursor': 'context-menu'});
     //Functions
     hoverFunc = function(){
@@ -233,13 +233,12 @@ var pathObj = {
     circ6.hover(hoverFunc, backFunc);
     text6.hover(hoverFunc, backFunc);
 
-
     //CIRCLE 8
-    var circ7 = paper.circle(129, 315, 15);
+    var circ7 = paper.circle(210, 315, 15);
     circ7.attr({fill: '#FFFF66', stroke: '#A9A9A9',"stroke-width": "3", opacity: 0});
     var anim = Raphael.animation({opacity: 1}, 500); //the animation
     circ7.animate(anim.delay(5000)); // run the given animation immediately
-    var text7 = paper.text(129, 313, "OSC\nV3");
+    var text7 = paper.text(210, 315, "OSC\nWebsite\nV3");
     text7.attr({opacity: 0, 'font-size': 0, 'cursor': 'context-menu'});
     //Functions
     hoverFunc = function(){
@@ -254,32 +253,31 @@ var pathObj = {
     text7.hover(hoverFunc, backFunc);
 
     //CIRCLE 9
-    var circNew = paper.circle(129, 395, 15);
-    circNew.attr({fill: '#e09b99', stroke: '#A9A9A9',"stroke-width": "3", opacity: 0});
+    var lastCircle = paper.circle(210, 395, 15);
+    lastCircle.attr({fill: '#e09b99', stroke: '#A9A9A9',"stroke-width": "3", opacity: 0});
     var anim = Raphael.animation({opacity: 1}, 500); //the animation
-    circNew.animate(anim.delay(5900)); // run the given animation immediately
-    var textNew = paper.text(129, 395, "Nuthin\nYet");
-    textNew.attr({opacity: 0, 'font-size': 0, 'cursor': 'context-menu'});
+    lastCircle.animate(anim.delay(5900)); // run the given animation immediately
+    var lastText= paper.text(210, 395, "Nuttin\nyet :P");
+    lastText.attr({opacity: 0, 'font-size': 0, 'cursor': 'context-menu'});
     //Functions
     hoverFunc = function(){
-        circNew.animate({r: 35}, 500, 'bounce');
-        textNew.animate({opacity: 1, 'font-size': 15}, 500, 'bounce');
+        lastCircle.animate({r: 30}, 500, 'bounce');
+        lastText.animate({opacity: 1, 'font-size': 15}, 500, 'bounce');
     };
     backFunc = function(){
-        circNew.animate({r: 15}, 500, 'bounce');
-        textNew.animate({opacity: 0, 'font-size': 0}, 500, 'bounce');
+        lastCircle.animate({r: 15}, 500, 'bounce');
+        lastText.animate({opacity: 0, 'font-size': 0}, 500, 'bounce');
     };
-    circNew.hover(hoverFunc, backFunc);
-    textNew.hover(hoverFunc, backFunc);
-
+    lastCircle.hover(hoverFunc, backFunc);
+    lastText.hover(hoverFunc, backFunc);
 
 
     //CIRCLE 10
-    var circ8 = paper.circle(36, 94, 15);
+    var circ8 = paper.circle(110, 94, 15);
     circ8.attr({fill: '#FFFF66', stroke: '#A9A9A9',"stroke-width": "3", opacity: 0});
     var anim = Raphael.animation({opacity: 1}, 500); //the animation
     circ8.animate(anim.delay(6300)); // run the given animation immediately
-    var text8 = paper.text(36, 90, "git\nTutorials");
+    var text8 = paper.text(110, 90, "git\nTutorials");
     text8.attr({opacity: 0, 'font-size': 0, 'cursor': 'context-menu'});
     //Functions
     hoverFunc = function(){
@@ -295,19 +293,19 @@ var pathObj = {
 
     //DECLARATION
     //Green
-    var green = paper.circle(11, 440, 10);
+    var green = paper.circle(11, 530, 10);
     green.attr({fill: '#9ACD32'});
-    var txtGreen = paper.text(36, 440, "Done");
+    var txtGreen = paper.text(36, 530, "Done");
 
     //Yellow
-    var yellow = paper.circle(80, 440, 10);
+    var yellow = paper.circle(80, 530, 10);
     yellow.attr({fill: '#FFFF66'});
-    var txtYellow = paper.text(130, 440, "Work in progress");
+    var txtYellow = paper.text(130, 530, "Work in progress");
 
     //Red
-    var red = paper.circle(190, 440, 10);
+    var red = paper.circle(190, 530, 10);
     red.attr({fill: '#e09b99'});
-    var txtRed= paper.text(220, 440, "في الزلافة");
+    var txtRed= paper.text(220, 530, "في الزلافة");
 
  });
 
